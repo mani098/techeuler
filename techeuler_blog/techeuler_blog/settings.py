@@ -336,3 +336,7 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+
+SITE_TITLE = "TechEuler"
+SITE_TAGLINE = "Discover knowledge around you"
