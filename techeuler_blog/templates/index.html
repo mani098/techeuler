@@ -21,7 +21,7 @@
                 <small style="padding-left:10px;">{{ recent_post.publish_date|timesince }} {% trans "ago" %}</small>
             </h4>
             <div class="recent-summary">
-                {{ recent_post.description_from_content|safe }}
+                {{ recent_post.description|safe }}
             </div>
             <hr>
         {% endfor %}
