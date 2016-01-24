@@ -19,21 +19,21 @@ from django.utils.translation import ugettext_lazy as _
 
 # Controls the ordering and grouping of the admin menu.
 #
-# ADMIN_MENU_ORDER = (
-#     ("Content", ("pages.Page", "blog.BlogPost",
-#        "generic.ThreadedComment", (_("Media Library"), "media-library"),)),
-#     ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
-#     ("Users", ("auth.User", "auth.Group",)),
-# )
+ADMIN_MENU_ORDER = (
+    ("Content", ("pages.Page", "blog.BlogPost",
+       "generic.ThreadedComment", (_("Media Library"), "media-library"),)),
+    ("Site", ("sites.Site", "redirects.Redirect", "conf.Setting")),
+    ("Users", ("auth.User", "auth.Group",)),
+)
 
 # A three item sequence, each containing a sequence of template tags
 # used to render the admin dashboard.
 #
-# DASHBOARD_TAGS = (
-#     ("blog_tags.quick_blog", "mezzanine_tags.app_list"),
-#     ("comment_tags.recent_comments",),
-#     ("mezzanine_tags.recent_actions",),
-# )
+DASHBOARD_TAGS = (
+    ("blog_tags.quick_blog", "mezzanine_tags.app_list"),
+    ("comment_tags.recent_comments",),
+    ("mezzanine_tags.recent_actions",),
+)
 
 # A sequence of templates used by the ``page_menu`` template tag. Each
 # item in the sequence is a three item sequence, containing a unique ID
@@ -42,11 +42,11 @@ from django.utils.translation import ugettext_lazy as _
 # menus a page should appear in. Note that if a menu template is used
 # that doesn't appear in this setting, all pages will appear in it.
 
-# PAGE_MENU_TEMPLATES = (
-#     (1, _("Top navigation bar"), "pages/menus/dropdown.html"),
-#     (2, _("Left-hand tree"), "pages/menus/tree.html"),
-#     (3, _("Footer"), "pages/menus/footer.html"),
-# )
+PAGE_MENU_TEMPLATES = (
+    (1, _("Top navigation bar"), "pages/menus/dropdown.html"),
+    (2, _("Left-hand tree"), "pages/menus/tree.html"),
+    (3, _("Footer"), "pages/menus/footer.html"),
+)
 
 # A sequence of fields that will be injected into Mezzanine's (or any
 # library's) models. Each item in the sequence is a four item sequence.
@@ -248,7 +248,7 @@ INSTALLED_APPS = (
     "mezzanine.galleries",
     "mezzanine.twitter",
     # "mezzanine.accounts",
-    # "mezzanine.mobile",
+    "mezzanine.mobile",
 )
 
 # List of middleware classes to use. Order is important; in the request phase,
@@ -340,3 +340,5 @@ else:
 
 SITE_TITLE = "TechEuler"
 SITE_TAGLINE = "Discover knowledge around you"
+from .sensitive import *
+
