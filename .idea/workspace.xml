@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30bc677-fb38-4c21-9e51-15ff8da56750" name="Default" comment="Added supervisorctl restart">
+    <list default="true" id="f30bc677-fb38-4c21-9e51-15ff8da56750" name="Default" comment="Added cdn for bootstrap">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/techeuler_blog/deploy/local_settings.py.template" afterPath="$PROJECT_DIR$/techeuler_blog/deploy/local_settings.py.template" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/techeuler_blog/templates/base.html" afterPath="$PROJECT_DIR$/techeuler_blog/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/techeuler_blog/templates/index.html" afterPath="$PROJECT_DIR$/techeuler_blog/templates/index.html" />
     </list>
     <ignored path="techeuler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/techeuler_blog/techeuler_blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-1.9660743">
               <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
@@ -82,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/techeuler_blog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6081081">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state vertical-scroll-proportion="-15.925926">
+              <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -457,7 +455,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453651497590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added cdn for bootstrap">
+      <created>1453660405679</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1453660405679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +524,8 @@
     <MESSAGE value="Added recent post code in home page" />
     <MESSAGE value="updated index page" />
     <MESSAGE value="Added supervisorctl restart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added supervisorctl restart" />
+    <MESSAGE value="Added cdn for bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cdn for bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -858,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/techeuler_blog/techeuler_blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/techeuler_blog/techeuler_blog/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -928,8 +925,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/techeuler_blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6081081">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state vertical-scroll-proportion="-15.925926">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/techeuler_blog/techeuler_blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9660743">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
