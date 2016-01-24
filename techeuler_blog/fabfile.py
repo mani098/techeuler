@@ -589,6 +589,8 @@ def restart():
     else:
         sudo("supervisorctl update")
 
+    sudo("supervisorctl restart gunicorn_techeuler_blog")
+
 
 @task
 @log_call
