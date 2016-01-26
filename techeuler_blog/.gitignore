@@ -5,7 +5,7 @@
 .coverage
 local_settings.py
 sensitive.py
-/static
+
 
 # pycharm
 /.idea/
