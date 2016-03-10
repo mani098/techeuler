@@ -95,7 +95,7 @@
 <div class="container">
 <div class="row">
 
-{% if request.page.title != 'About' %}
+{% if request.page.title != 'About me' %}
     <div class="col-md-2 left">
         {% block left_panel %}
         <div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
@@ -103,11 +103,15 @@
     </div>
 {% endif %}
 
+{% if request.page.title != 'About me' %}
+<div class="col-md-7 middle">
+{% else %}
 <div class="col-md-12 middle">
+{% endif %}
     {% block main %}{% endblock %}
 </div>
 
-{% if request.page.title != 'About' %}
+{% if request.page.title != 'About me' %}
     <div class="col-md-3 right">
         <div class="panel panel-default">
             <div class="panel-body" style="padding:2px;">

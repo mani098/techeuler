@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30bc677-fb38-4c21-9e51-15ff8da56750" name="Default" comment="Removed ad code in about page">
+    <list default="true" id="f30bc677-fb38-4c21-9e51-15ff8da56750" name="Default" comment="Removed page tree for about page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/techeuler_blog/templates/base.html" afterPath="$PROJECT_DIR$/techeuler_blog/templates/base.html" />
     </list>
@@ -40,8 +40,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/techeuler_blog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5518395">
-              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.64882946">
+              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#ins#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ins#1;n#head#0;n#html#0;n#!!top" expanded="true" />
@@ -416,7 +416,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457582142853</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Removed page tree for about page">
+      <created>1457582476018</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1457582476018</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -490,7 +496,8 @@
     <MESSAGE value="added new ad code" />
     <MESSAGE value="Added 2 ad code" />
     <MESSAGE value="Removed ad code in about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed ad code in about page" />
+    <MESSAGE value="Removed page tree for about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed page tree for about page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -867,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/techeuler_blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5518395">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.64882946">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#ins#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ins#1;n#head#0;n#html#0;n#!!top" expanded="true" />
